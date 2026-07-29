@@ -1,7 +1,7 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
-  "include": ["src/**/*", "tests/**/*"],
-  //"exclude": ["tests/**/*"],
+  "include": ["src/**/*"],
+  "exclude": ["tests/**/*"],
   "compilerOptions": {
     // File Layout
     "rootDir": ".",
@@ -18,9 +18,9 @@
     // and npm install -D @types/node
 
     // Other Outputs
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+    "sourceMap": false,
+    "declaration": false,
+    "declarationMap": false,
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,

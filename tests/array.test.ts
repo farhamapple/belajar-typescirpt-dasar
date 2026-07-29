@@ -8,4 +8,13 @@ describe('Array', function(){
         console.info(names);
         console.info(value);
     });
+
+    it('should support readonly array', function(){
+        const names: readonly string[] = ["Eko", "Kurniawan", "Khannedy"];
+        //names.push("Eko");
+
+        console.info(names);
+        console.info(names[0]);
+        console.info(names.length);
+    })
 })

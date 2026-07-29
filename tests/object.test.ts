@@ -1,12 +1,12 @@
 describe('Object', function(){
     it('should return object', function(){
-       const person: {
+       let person: {
         id: string,
         name: string
-       } = {
-        id: "1",
-        name: "Eko"
-       };
+       } = { id: "", name: "" };
+
+       person.id = "2";
+       person.name = "Kurniawan";
 
        console.info(person);
     });
